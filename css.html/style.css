@@ -1,0 +1,39 @@
+.gf {
+  background-color: brown;
+  
+}
+.fg{
+  background-color: black;
+  color: white;
+}
+#bh{
+  background-color: green;
+  font-size: 40px;
+}
+#mr{
+  background-color: chartreuse;
+  font-size: 40px;
+}
+#rm{
+  background-color: royalblue;
+  font-size: 35px;
+}
+h2{
+  background-color: darkgoldenrod;
+}
+.pk{
+  background-color: darkslateblue;
+  font-size: 45px;
+}
+*{
+  background-color: grey;
+}
+.km{
+  background-color: hotpink;
+}
+#met{
+  background-color: teal;
+}
+.sub{
+  background-color: darkolivegreen;
+}

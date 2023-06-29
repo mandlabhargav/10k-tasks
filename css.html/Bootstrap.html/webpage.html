@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposnsive web page</title>
+    <style>
+        .bh{
+            background-color: rgb(55, 55, 228);
+            height: 100vh;
+            
+        }
+        .na{
+         padding: 70px;
+         display: flex;
+         gap: 13px;
+         align-items:center;
+         color: aliceblue;
+         font-size: large;
+
+        }
+        .big{
+            padding: 60px;
+             color: aliceblue;
+             padding-right: 200px;
+             
+        }
+        .Nice{
+             align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            
+        }
+        .kl{
+            font-weight: 500;
+        }
+        .bhar{
+            width: 300px;
+        }
+        .ui{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 bh" >
+                <div class="na">
+                <img src="../logo of webpage.png" alt="logo">
+                <p>clever</p>
+            </div>
+            <div class="big">
+            <h1>Let's build<br>something<br>amazing<br>today.</h1>
+            <p>Maybe some text here will help see it better.oh god. oke,let's do it then.</p>
+            <img src="../boll.png" alt="boll">
+        </div>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="Nice">
+                    <h2>Nice to see you!</h2>
+                <form class="kl">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">keep me logged in</label>
+                    </div>
+                    <button type="button" class=" bhar btn btn-primary">Sign in</button>
+                  </form>
+                  <p class="p-2">OR</p>
+                  <div class="ui">
+                  <div>
+                  <ion-icon name="logo-github" ></ion-icon>
+                  Github
+                </div>
+                <div>
+                  <ion-icon name="logo-google"></ion-icon>
+                  Google
+                </div>
+                </div>
+                <p class="p-2">Don't have an account? <span style="color: orange;">sign up</span></p>
+            </div>
+         </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout Using Flexbox</title>
+    <style>
+     .header{
+        color: white;
+        background-color: black;
+        padding: 50px;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+     }
+     .Banner{
+        color: white;
+        background-color: orange;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .content{
+        display: flex;
+     }
+     .content>div:nth-child(1),.content>div:nth-child(2),.content>div:nth-child(3   ){
+        height: 500px;
+        background-color: rgb(81, 81, 81);
+        color: white;
+        font-size: 36px;
+        font-weight: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid wheat;
+        flex-grow: 1;
+     }
+     .footer{
+        color: white;
+        background-color: black;
+        padding: 50px;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+     }
+    </style>
+</head>
+<body>
+<div class="header">
+    header
+</div>
+<div class="Banner">
+    Banner
+</div>
+<div class="content ">
+    <div>content 1</div>
+    <div>content 2</div>
+    <div>content 3</div>
+</div>
+<div class="footer">
+    footer
+</div>
+</body>
+</html>

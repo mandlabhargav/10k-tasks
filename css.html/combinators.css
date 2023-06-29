@@ -1,0 +1,11 @@
+.cont h1{
+    color: red;
+}
+
+.cont>h1 {
+background-color: grey;
+}
+
+.cont p {
+    color: green;
+}

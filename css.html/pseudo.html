@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors</title>
+</head>
+<style>
+    ul > li:nth-child(2){
+        color: green;
+    }
+    ul > li:nth-child(4){
+        color: blue;
+    }
+    ul > li:nth-child(3){
+        color: red;
+    }
+    ul > li:nth-child(1){
+        color: rgb(42, 6, 12);
+    }
+
+    h1:hover{
+        color: rgb(172, 31, 6);
+        font-size: 50px;
+    }
+    p::first-letter{
+        font-size: 38px;
+        color:orangered
+    }
+    p::selection{
+        background-color: darkgoldenrod;
+    }
+</style>
+<body>
+    <!--first child-->
+
+    <ul>
+        <li>first child</li>
+        <li>second child</li>
+        <li>Third child</li>
+        <li>Fourth child</li>
+    </ul>
+    <!--a:hover-->
+    <h1>Bhargav</h1>
+
+    <p>Adipurush is likely to be a new experience for north-Indian audiences. Because as an audience, they haven’t been exposed to Ramayana as much as people in the South have.</p>
+</body>
+
+</html>
